@@ -1,0 +1,54 @@
+# Tracked in this repository:
+#   movielens-recommender-system.ipynb              the executed notebook
+#   GroupProject_Report.docx                        the written report
+#   images/recommender/                             the four report figures
+#   ml-100k/, ml-100k.zip                           the MovieLens 100K dataset
+#   New_MovieLens_100k_dataset_original.ipynb.bak   the team's original notebook
+#   README.md
+#
+# Everything below is machine-generated or a working file.
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+ENV/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ---- IDE / editors ----
+.vscode/
+.idea/
+*.swp
+
+# ---- Trained models ----
+*.pkl
+*.joblib
+
+# ---- LaTeX artifacts from building the report ----
+*.aux
+*.log
+*.tex
+*.toc
+*.out
+texput.log
+
+# ---- Word lock / autosave files ----
+~$*
+
+# ---- Report working files (the .docx is the deliverable) ----
+GroupProject_Report_source.md
+GroupProject_Report.pdf
+GroupProject_Walkthrough.md
+CHANGELOG_GroupProject.md
